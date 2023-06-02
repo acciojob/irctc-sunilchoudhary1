@@ -35,6 +35,7 @@ public class AddTrainEntryDto {
     }
 
     public void setDepartureTime(LocalTime departureTime) {
+
         this.departureTime = departureTime;
     }
 
@@ -43,6 +44,7 @@ public class AddTrainEntryDto {
     }
 
     public void setNoOfSeats(int noOfSeats) {
+
         this.noOfSeats = noOfSeats;
     }
 }
